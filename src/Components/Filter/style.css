@@ -1,0 +1,11 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 30px;
+  background: var(--efect);
+  width: 50%;
+}

@@ -1,0 +1,45 @@
+
+.geral{
+  margin: 10% auto;
+}
+header {
+  position: relative;
+  width: 100%;
+  min-width: 400px;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+}
+blockquote {
+  position: absolute;
+  top: 30%;
+  font-size: 96px;
+  color: var(--efect);
+}
+.banner img {
+  width: 100%;
+  
+}
+.nav li 
+,
+main a,
+.nav-footer li a,
+.btnDownload:hover {
+  text-decoration: none;
+  color: var(--font);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav li a:hover,
+.nav-footer li a:hover,
+.nav-footer li:hover {
+  text-decoration: none;
+  color: var(--efect);
+}
+main a:hover{
+  text-decoration: none;
+  color: var(--background);
+}

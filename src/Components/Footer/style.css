@@ -1,0 +1,25 @@
+footer {
+  height: 100%;
+  background-color: var(--background);
+}
+.nav-footer li a {
+  font-size: 16px;
+}
+input[type='text'] {
+  padding: 5px;
+  border-radius: 12px;
+  width: 215px;
+}
+button, .nav-item button, .btnDownload {
+  padding: 5px 20px;
+  border-radius: 50px;
+  background: var(--background);
+}
+.nav-footer li {
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+.btnDownload {
+  min-width: 200px;
+}
