@@ -1,4 +1,3 @@
-import { RotateLeftSharp } from '@mui/icons-material';
 import './App.css';
 import Rotas from './routes';
 

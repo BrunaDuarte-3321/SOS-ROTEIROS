@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Components/Header';
 import Roteiro from './Components/Roteiro';
-import Cadastro from './pages/Cadastro';
+import Form from './pages/Form';
 import Home from './pages/Home';
 
 const Rotas = () => {
@@ -10,8 +9,9 @@ const Rotas = () => {
     <BrowserRouter>
       
       <Routes>
-        <Route path="/cadastro" element={<Cadastro />} />
+        
         <Route path="/roteiro" element={<Roteiro />} />
+        <Route path="/cadastro" element={<Form />} />
         {/* <Route path="/posts/:id" element={<Posts />} />
         <Route path="*" element={<Pagina404 />}></Route> */}
         <Route index element={<Home />} />

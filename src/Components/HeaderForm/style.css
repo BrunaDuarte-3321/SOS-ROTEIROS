@@ -21,15 +21,26 @@ a.nav-link:hover{
   ;
 
 }
+.imageBanner img{
+height: 389px;
+width: 100%;
+margin-top: 132px;
+}  
 
-blockquote h1{
+.blockquote h1{
   position: absolute;
-  top: 344px;
-  left: 256.2px; 
-  font-size: 96px;
-  color: var(--efect);
-  font-weight: 600;
-  line-height: 104px;
+  height: 216px;
+  left: 256.2px;
+  top: 219px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 104px;
+/* or 108% */
+
+display: flex;
+align-items: flex-end;
 }
 .image img {
   width: 100%;
@@ -59,3 +70,4 @@ main a:hover{
   text-decoration: none;
   color: var(--background);
 }
+

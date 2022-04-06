@@ -7,7 +7,7 @@ import './style.css';
 
 const Body = () => {
   return (
-    <main className="d-grid my-5">
+    <main className="d-grid ">
       <div className="col m-3">
         <div className="row">
           <div className="title mt-4">

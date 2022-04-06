@@ -28,11 +28,11 @@ const Header = () => {
       </nav>
 
       <div className="banner">
-        <div className="image">
+        <div className="imageBanner">
           <img src={banner} alt="" />
         </div>
         <blockquote className="blockquote p-4 ">
-          <h1 >
+          <h1 className='herderForm'>
             <em>Os melhores roteiros para você.</em>
           </h1>
         </blockquote>
