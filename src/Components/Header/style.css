@@ -6,15 +6,21 @@ header {
 .navbar {
   position: absolute;
   width: 100%;
+  color: rgba(63, 109, 111, 1);
 }
-blockquote {
-  position: absolute;
-  top: 30%;
+blockquote h1{
+  /* position: absolute;
+  top: 344px;
+  left: 256.2px; */
+  
   font-size: 96px;
   color: var(--efect);
+  font-weight: 600;
+  line-height: 104px;
 }
-.banner img {
+.image img {
   width: 100%;
+  margin-top: 132px;
   
 }
 .nav li 
@@ -29,11 +35,12 @@ main a,
   align-items: center;
   justify-content: center;
 }
-.nav li a:hover,
-.nav-footer li a:hover,
+.nav li Link:hover,
+.nav-footer li Linka:hover,
 .nav-footer li:hover {
   text-decoration: none;
-  color: var(--efect);
+  color: black;
+
 }
 main Link:hover{
   text-decoration: none;

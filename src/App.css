@@ -6,7 +6,7 @@
   list-style: none;
 }
 :root {
-  --background: #c4c4c4;
+  --background: rgba(239, 247, 248, 1);
   --font: #000000;
   --efect: white;
 }
