@@ -11,6 +11,16 @@ footer {
   padding-bottom: 5px;
 }
 
-.btnDownload {
-  min-width: 200px;
-}
+
+
+/* .footer{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+width: 280px;
+height: 40px;
+left: 1112px;
+top: 89px;
+} */

@@ -14,7 +14,7 @@ const Footer = () => {
           <img src={logo} alt="" />
         </a>
       </div>
-      <nav className="col-md-4 ">
+      <nav className="col-md-4 footer">
         <ul className="nav-footer px-0">
           <li>
             <ul className="px-0 d-flex">
@@ -41,10 +41,11 @@ const Footer = () => {
             </ul>
           </li>
         </ul>
-        <ul>
+        <ul className="footer2">
           <li>
             <a href="#">Nossa proposta</a>
           </li>
+
           <li>
             <a href="#">Cadastrar/Logar</a>
           </li>
