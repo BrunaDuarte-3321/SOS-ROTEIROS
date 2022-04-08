@@ -1,0 +1,58 @@
+header {
+  width: 100%;
+  min-width: 400px;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  color: rgba(63, 109, 111, 1);
+}
+a.nav-link{
+  color: red;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  color:#3F6D6F
+  ;
+}
+a.nav-link:hover{
+  color:#457679
+  ;
+
+}
+
+blockquote h1{
+  position: absolute;
+  top: 344px;
+  left: 256.2px; 
+  font-size: 96px;
+  color: var(--efect);
+  font-weight: 600;
+  line-height: 104px;
+}
+.image img {
+  width: 100%;
+}
+.nav li 
+,
+main a,
+.nav-footer li a,
+.btnDownload:hover {
+  text-decoration: none;
+  color: var(--font);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav li Link:hover,
+.nav-footer li  a:hover,
+.nav-footer li:hover {
+  text-decoration: none;
+  color: black;
+
+}
+main a:hover{
+  text-decoration: none;
+  color: var(--background);
+}
